@@ -1,0 +1,13 @@
+2.Upload the wsubmitter folder to your site
+1.Edit config.php and add your details
+2.Create logs/ folder in the inc/ folder and make it writable (chmod to 777)
+3.Edit cats.txt and add your categories/forums
+4.Edit ddls.txt and add the ddls where you want to submit
+5.Edit words.txt and add what words or phrases you want to remove from titles
+
+In cats.txt you can use these types: App, Game, Movie, TV, Music, XXX, eBook, Template, Script, Other, Mobile
+
+For dle only:
+Add in .htaccess after RewriteEngine On
+RewriteRule ^wsubmitter/$ wsubmitter/ [L]
+RewriteRule ^wsubmitter/(.*)$ wsubmitter/$1 [L]

@@ -1,0 +1,3 @@
+<?
+die('nothing here');
+?>

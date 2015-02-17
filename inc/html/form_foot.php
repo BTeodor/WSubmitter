@@ -1,0 +1,3 @@
+<?
+echo '</tbody></table><table align="center" style="border: 2px solid #7bc4df;padding: 15px 10px; background: #faffff; width: 100%;""><tr><td>Site Name:* </td><td>Site URL:* </td><td>E-mail:*</td></tr><tr><td style="width:33%;"><input style="width:90%;" type="text" name="sname" value="'.$ws_config['sitename'].'" /></td><td style="width:33%;"><input style="width:90%;" type="text" name="surl" value="'.$ws_config['urlf'].'" /></td><td style="width:33%;"><input style="width:90%;" type="text" name="email" value="'.$ws_config['sitemail'].'" /></td></tr><tr><td colspan="4"><input type="hidden" name="ddlid" id="ddlid" value="'.$ddlid.'" /><input type="submit" value= "Submit" /></td></tr></table></form></form>';
+?>
