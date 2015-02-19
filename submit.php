@@ -40,7 +40,7 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www
 			}
        echo '</div>
     </div>
-<div id="footer">Support or questions at gtht89@gmail.com. Add "WSubmitter Support" as subject for faster response. Created by <a href="mailto:gtht89@gmail.com?Subject=WSubmitter Support">t3od0r</a> | <a href="http://wsubmitter.zupedia.com">site</a></div>
+<div id="footer"></div>
 
 </body>
 </html>';
